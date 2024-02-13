@@ -7,7 +7,7 @@ def main():
     dict_list = list()
     for n in range(1, 11):
         page_url = main_url + f'/api/quotes?page={n}'   # fetch/XHR
-        page_soup = get_soup(page_url)    
+        page_soup = get_soup(page_url)
         for data in get_data(page_soup):
             dict_list.append(data)
     
