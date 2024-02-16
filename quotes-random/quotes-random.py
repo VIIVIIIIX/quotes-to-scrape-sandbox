@@ -13,7 +13,7 @@ def main():
                 info.append(data)
     
     df = pd.DataFrame(info)
-    df.to_csv("./quote-random/quote-random.csv", index=False)
+    df.to_csv("./quotes-random/quotes-random.csv", index=False)
 
 def get_soup(url):
     r = requests.get(url)
