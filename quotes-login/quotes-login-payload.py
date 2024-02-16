@@ -1,5 +1,5 @@
 def payload():
     return {
         'username': 'user',
-        'password': 1234
+        'password': 'superstrongpassword'
         }
